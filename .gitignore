@@ -1,0 +1,44 @@
+# Node.js dependencies
+server/node_modules/
+
+# TypeScript build output
+server/dist/
+server/build/
+server/*.tsbuildinfo
+
+# Environment variables
+server/.env
+server/.env.local
+server/.env.*.local
+server/.env.development
+server/.env.test
+server/.env.production
+
+# Debug logs
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+server/logs/
+server/*.log
+
+# Testing
+server/coverage/
+server/.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+server/tmp/
+server/temp/ 
